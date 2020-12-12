@@ -28,10 +28,20 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
+  device_preview: ^0.5.4
+  polygon_clipper: ^1.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_rename_app: ^1.0.0 
+
+flutter_rename_app:
+  application_name: nova
+  dart_package_name: nova
+  application_id: com.android.nova
+  bundle_id: com.ios.nova
+  android_package_name: com.nova.app
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -45,8 +55,11 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/perosn.jpeg
+    - assets/apple_logo.png
+    - assets/facebook_logo.png
+    - assets/google_logo.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -60,15 +73,12 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
+  fonts:
+    - family: Oxygen1 
+      fonts: 
+        - asset: fonts/Oxygen-Regular.ttf 
+        - asset: fonts/Oxygen-Light.ttf 
+        - asset: fonts/Oxygen-Bold.ttf 
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #

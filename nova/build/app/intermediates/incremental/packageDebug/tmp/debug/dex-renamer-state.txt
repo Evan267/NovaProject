@@ -1,0 +1,4 @@
+#Sat Dec 12 15:51:30 CET 2020
+base.0=/Users/user/Desktop/Nova/NovaProject/nova/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
