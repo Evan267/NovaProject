@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:nova/Data.dart';
-import 'package:nova/main.dart';
 
 class LogIn extends StatelessWidget {
   @override

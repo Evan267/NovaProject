@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "155829163217",
+    "project_id": "nova-df945",
+    "storage_bucket": "nova-df945.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155829163217:android:92b2ae4293545bcee8a1f0",
+        "android_client_info": {
+          "package_name": "com.example.nova"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155829163217-m5qoeqksrui2d9pdommn67hrkroflaoi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW8UEM9sRBZgAAPaKjJC2eAkc9CTjF8N0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155829163217-m5qoeqksrui2d9pdommn67hrkroflaoi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
